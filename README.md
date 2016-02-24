@@ -1,19 +1,4 @@
-# Installation Instructions:
 
-##### Installs Basic MVC structure, and auto builds using project.json with automatic `dnu restore`
-##### Run command using your `powershell` (not CMD) within empty Project Folder i.e `$ ~/Desktop/empty_project`
-##### Install core files :
-
-```bash
-Invoke-WebRequest https://github.com/TimDurward/csharp-task-runner/archive/master.zip -Outfile ~\.\Desktop\c__sharp.zip; Expand-Archive ~\.\Desktop\c__sharp.zip -dest ~\.\Desktop\csharpRunner; mv ~\.\Desktop\csharpRunner\csharp-task-runner-master .; cd .\csharp-task-runner-master\; mv * ..; cd ..; rm .\csharp-task-runner-master\; rm ~\.\Desktop\csharpRunner; rm ~\.\Desktop\c__sharp.zip; dnu restore; clear; echo "Don't forget:"; echo 'git config --global user.name "John Doe"'; echo 'git config --global user.email "johndoe@example.com"'
-```
-
-***
-
-<!-- Delete Above -->
-
-
-<!-- README FILE. Replace where needed -->
 # _Application Name_
 
 #### _Short Summary of Application!_
